@@ -1,0 +1,67 @@
+#playerContainer {
+  height: 64px;
+  width: 293px;
+  background: white;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 52px;
+  margin: 45px auto;
+}
+
+button {
+  margin: 10px;
+}
+
+.playPauseContainer {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  border-radius: 60px;
+  background-color: #f26b61;
+  cursor: pointer;
+  border: 0px;
+}
+
+.playIcon {
+  margin: 12px 5px 10px 8px;
+  /*   display: none; */
+}
+
+.pauseIcon {
+  width: 14px;
+  margin: 12px 5px 10px 5px;
+  /*   display: none; */
+}
+
+#controls {
+}
+
+#progress {
+  margin-left: 70px;
+  width: 199px;
+  height: 7.7px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+#bar {
+  height: 7.7px;
+  background-color: #f26b61;
+  border-radius: 20px;
+  width: 0;
+  margin: -35px 0 0 0;
+}
+
+.rabbit-lyrics {
+  color: #f26b61;
+  font-size: 18px;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 24px 0 0 0;
+}
+
+#playCurrentTime {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 10px;
+  color: #2a3c63;
+  margin-left: 247px;
+  margin-top: 3px;
+}
